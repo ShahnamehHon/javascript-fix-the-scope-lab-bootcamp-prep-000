@@ -28,4 +28,5 @@ var funkyFunction = function() {
     }
 }
 
-var 
+var theFunk = funkyFunction;
+var theFunk = funkyFunction()();
